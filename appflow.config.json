@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "appId": "com.ovall.app",
+      "root": "."
+    }
+  ],
+  "environments": {
+    "production": {}
+  }
+}

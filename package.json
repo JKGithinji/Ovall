@@ -11,10 +11,8 @@
   "keywords": ["wikipedia", "game", "mobile", "android"],
   "author": "Ovall Team",
   "license": "MIT",
-  "devDependencies": {
-    "cordova": "^12.0.0",
-    "cordova-android": "^12.0.0"
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "cordova": {
     "platforms": ["android"],
     "plugins": {
