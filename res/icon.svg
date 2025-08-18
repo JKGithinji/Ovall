@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F7F3F0"/>
+      <stop offset="100%" style="stop-color:#E8DDD6"/>
+    </linearGradient>
+    <linearGradient id="eggGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="30%" style="stop-color:#f8f9fa"/>
+      <stop offset="70%" style="stop-color:#e9ecef"/>
+      <stop offset="100%" style="stop-color:#dee2e6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" rx="80" fill="url(#bg)"/>
+  
+  <!-- Egg shape -->
+  <ellipse cx="200" cy="256" rx="60" ry="75" fill="url(#eggGradient)" 
+           stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+  
+  <!-- Egg highlight -->
+  <ellipse cx="185" cy="230" rx="20" ry="25" fill="rgba(255,255,255,0.6)" opacity="0.8"/>
+  
+  <!-- Text "vall" -->
+  <text x="280" y="280" font-family="system-ui, -apple-system, sans-serif" 
+        font-size="90" font-weight="600" fill="#FF8C42" 
+        text-shadow="2px 2px 4px rgba(0,0,0,0.3)">vall</text>
+</svg>

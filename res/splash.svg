@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480" height="800" viewBox="0 0 480 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F7F3F0"/>
+      <stop offset="100%" style="stop-color:#E8DDD6"/>
+    </linearGradient>
+    <linearGradient id="eggGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="30%" style="stop-color:#f8f9fa"/>
+      <stop offset="70%" style="stop-color:#e9ecef"/>
+      <stop offset="100%" style="stop-color:#dee2e6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="480" height="800" fill="url(#bg)"/>
+  
+  <!-- Logo container centered -->
+  <g transform="translate(240, 400)">
+    <!-- Egg shape -->
+    <ellipse cx="-50" cy="0" rx="35" ry="42" fill="url(#eggGradient)" 
+             stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+    
+    <!-- Egg highlight -->
+    <ellipse cx="-60" cy="-15" rx="12" ry="15" fill="rgba(255,255,255,0.6)" opacity="0.8"/>
+    
+    <!-- Text "vall" -->
+    <text x="0" y="15" font-family="system-ui, -apple-system, sans-serif" 
+          font-size="56" font-weight="600" fill="#FF8C42" 
+          text-anchor="start" text-shadow="2px 2px 4px rgba(0,0,0,0.3)">vall</text>
+  </g>
+  
+  <!-- Subtitle -->
+  <text x="240" y="480" font-family="system-ui, -apple-system, sans-serif" 
+        font-size="18" fill="#2D1B0E" text-anchor="middle" opacity="0.9">Make Better Choices</text>
+</svg>

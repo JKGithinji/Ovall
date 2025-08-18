@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.ovall.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Ovall</name>
+    <description>
+        Ovall - Wikipedia Swiping Game. Make Better Choices by swiping through Wikipedia pages!
+    </description>
+    <author email="dev@ovall.app" href="https://ovall.app">
+        Ovall Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    
+    <!-- Android specific settings -->
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <preference name="Fullscreen" value="false" />
+        <preference name="Orientation" value="portrait" />
+        <preference name="SplashScreen" value="screen" />
+        <preference name="SplashScreenDelay" value="3000" />
+        <preference name="AutoHideSplashScreen" value="true" />
+        <preference name="ShowSplashScreenSpinner" value="false" />
+        <preference name="StatusBarOverlaysWebView" value="false" />
+        <preference name="StatusBarBackgroundColor" value="#F7F3F0" />
+        <preference name="StatusBarStyle" value="darktext" />
+        
+        <!-- App Icons -->
+        <icon src="res/android/icon-ldpi.png" density="ldpi" />
+        <icon src="res/android/icon-mdpi.png" density="mdpi" />
+        <icon src="res/android/icon-hdpi.png" density="hdpi" />
+        <icon src="res/android/icon-xhdpi.png" density="xhdpi" />
+        <icon src="res/android/icon-xxhdpi.png" density="xxhdpi" />
+        <icon src="res/android/icon-xxxhdpi.png" density="xxxhdpi" />
+        
+        <!-- Splash Screens -->
+        <splash src="res/android/splash-port-ldpi.png" density="port-ldpi" />
+        <splash src="res/android/splash-port-mdpi.png" density="port-mdpi" />
+        <splash src="res/android/splash-port-hdpi.png" density="port-hdpi" />
+        <splash src="res/android/splash-port-xhdpi.png" density="port-xhdpi" />
+        <splash src="res/android/splash-port-xxhdpi.png" density="port-xxhdpi" />
+        <splash src="res/android/splash-port-xxxhdpi.png" density="port-xxxhdpi" />
+        
+        <!-- Permissions -->
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    </platform>
+    
+    <!-- Plugins -->
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.4" />
+    <plugin name="cordova-plugin-splashscreen" spec="^6.0.0" />
+    <plugin name="cordova-plugin-statusbar" spec="^4.0.0" />
+    <plugin name="cordova-plugin-device" spec="^2.1.0" />
+    <plugin name="cordova-plugin-network-information" spec="^3.0.0" />
+    
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com https://en.wikipedia.org https://upload.wikimedia.org https://images.unsplash.com 'unsafe-inline' 'unsafe-eval'; object-src 'none'; img-src 'self' data: https:; media-src 'self' https:; font-src 'self' data: https:; style-src 'self' 'unsafe-inline' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval';" />
+</widget>
