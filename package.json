@@ -4,10 +4,9 @@
   "description": "Ovall - Wikipedia Swiping Game for Android",
   "main": "index.js",
   "scripts": {
-    "build": "cordova platform add android && cordova build android",
+    "build": "cordova build android",
     "serve": "cordova serve",
-    "run": "cordova run android",
-    "postinstall": "cordova platform add android"
+    "run": "cordova run android"
   },
   "keywords": [
     "wikipedia",
