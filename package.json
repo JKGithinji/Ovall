@@ -6,7 +6,6 @@
   "scripts": {
     "build": "cordova build android",
     "serve": "cordova serve",
-    "prepare": "cordova prepare android",
     "run": "cordova run android"
   },
   "keywords": ["wikipedia", "game", "mobile", "android"],

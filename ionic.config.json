@@ -1,0 +1,7 @@
+{
+  "name": "Ovall",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "custom"
+}
